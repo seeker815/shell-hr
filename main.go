@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/seeker815/khr/cmd"
+import "github.com/seeker815/shr/cmd"
 
 func main() {
 	cmd.Execute()
