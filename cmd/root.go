@@ -107,6 +107,7 @@ func getUserInfo(path string) {
 	out, err := cmd.CombinedOutput()
 	check(err)
 	bhr := collectUsers(string(out))
+	fmt.Println(string(bhr))
 	_, err = f.WriteString(string(bhr))
 	check(err)
 }
