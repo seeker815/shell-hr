@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Shell HR(shr) is a CLI tool build using Cobra(kubectl) to export a system's user information. The command will be able to export usernames, IDs, home directories, and shells as either JSON 
+Shell HR(shr) is a CLI tool build using Cobra(kubectl) to export a system's user information. The command will be able to export usernames, IDs, home directories, and shells as JSON or to stdout
 
  - By default, the command will display the information as JSON to stdout
 
