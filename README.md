@@ -1,4 +1,4 @@
-# Shell HR CLI Tool 
+# SHR Command tool
 
 
 ## Introduction
