@@ -31,7 +31,7 @@ Flags:
   -t, --toggle          Help message for toggle
 ```
 
-$ shr  -path=<path-file>.json
+$ shr  -path="path-file".json
 ```
 $ shr
 [
