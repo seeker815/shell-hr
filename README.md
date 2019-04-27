@@ -1,4 +1,4 @@
-# User Management 
+# Shell HR CLI Tool 
 
 
 ## Introduction
@@ -17,6 +17,7 @@ Shell HR(shr) is a CLI tool build using Cobra(kubectl) to export a system's user
 ## Examples
 
 $ ./shr --help
+```
 shr command tool exports server's usernames, IDs, home directories as JSON
 
 Usage:
@@ -28,9 +29,10 @@ Flags:
   -h, --help            help for shr
   -p, --path string     file path to export user data
   -t, --toggle          Help message for toggle
+```
 
 $ shr  -path=<path-file>.json
-
+```
 $ shr
 [
   {
@@ -46,4 +48,4 @@ $ shr
     "shell": "/bin/bash"
   },
 ]
-
+```
